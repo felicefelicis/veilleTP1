@@ -1,0 +1,30 @@
+<svg width="2560" height="1600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="1602" width="2562" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#ffffff" id="svg_18" height="1616.000245" width="2583.000348" y="-3.29062" x="-7.290569" opacity="0.5" stroke-width="0" fill="#529D94"/>
+  <rect id="svg_34" height="46.000011" width="2588.000592" y="-7.000175" x="-15.000327" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#529D94"/>
+  <rect id="svg_35" height="46.000011" width="2588.000592" y="32.999833" x="-15.000327" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#61aaa1"/>
+  <rect id="svg_36" height="46.000011" width="2588.000592" y="118.999848" x="-15.000327" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#7ec9bf"/>
+  <rect id="svg_37" height="46.000011" width="2588.000592" y="72.99984" x="-15.000327" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#74bcb3"/>
+  <rect id="svg_38" height="46.000011" width="2588.000592" y="164.999857" x="-17.000328" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#96d3c9"/>
+  <rect stroke="#ffffff" id="svg_39" height="66.00001" width="2588.000592" y="208.999865" x="-17.000328" stroke-opacity="null" stroke-width="0" fill="#a2dbd1"/>
+  <rect stroke="#ffffff" id="svg_40" height="72.000021" width="2588.000592" y="268.999871" x="-17.000328" stroke-opacity="null" stroke-width="0" fill="#b0e5db"/>
+  <rect stroke="#ffffff" id="svg_41" height="174.000085" width="2588.000592" y="340.999914" x="-17.000328" stroke-opacity="null" stroke-width="0" fill="#c0e5de"/>
+  <rect stroke="#ffffff" id="svg_42" height="1114.000364" width="2588.000592" y="491.000154" x="-17.000328" stroke-opacity="null" stroke-width="0" fill="#d5f2ec"/>
+  <path id="svg_22" d="m-19.533148,1049.138776l179.000008,-390.000033l179.000009,390.000033l-358.000017,0z" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#bed8d5"/>
+  <path stroke="#ffffff" id="svg_23" d="m192.209325,1079.138789l319.500029,-688.27719l319.500031,688.27719l-639.00006,0z" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <path stroke="#ffffff" id="svg_31" d="m2302.46722,1058.138769l139.500004,-303.938569l139.500005,303.938569l-279.000009,0z" stroke-opacity="null" stroke-width="0" fill="#bed8d5"/>
+  <path id="svg_32" d="m1584.467218,1067.13878l179.000008,-390.000033l179.000009,390.000033l-358.000017,0z" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#bed8d5"/>
+  <path stroke="#ffffff" id="svg_33" d="m1858.209708,1079.138791l267.500004,-576.257071l267.500005,576.257071l-535.00001,0z" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <path id="svg_50" d="m2452.731043,223.88158l-73.840661,26.268755l0,-52.509534l73.840661,26.240779zm-53.614558,-129.399493l-33.640233,70.805344l-37.123151,-37.151125l70.763384,-33.654219zm-129.385512,-53.586581l26.254768,73.854645l-52.523524,0l26.268756,-73.854645zm-129.399499,53.586581l70.791359,33.654219l-37.137139,37.151125l-33.654221,-70.805344zm-53.600571,129.399493l73.854649,-26.240779l0,52.509534l-73.854649,-26.268755zm53.600571,129.399493l33.654221,-70.777368l37.137139,37.137137l-70.791359,33.640231l0,0zm129.399499,53.628544l-26.268756,-73.868633l52.523524,0l-26.254768,73.868633zm129.385512,-53.628544l-70.777372,-33.626244l37.123151,-37.137137l33.654221,70.763381zm-220.878553,-129.399493l0,0c0,-50.523291 40.969747,-91.493037 91.507029,-91.493037c50.523294,0 91.507029,40.969745 91.507029,91.493037c0,50.537279 -40.983735,91.507024 -91.507029,91.507024c-50.551269,0 -91.507029,-40.969745 -91.507029,-91.507024l0,0z" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#d5f2ec"/>
+  <path stroke="#ffffff" id="svg_21" d="m630.466836,1018.138743l227.500033,-495.670485l227.500035,495.670485l-455.000069,0z" stroke-opacity="null" stroke-width="0" fill="#bed8d5"/>
+ </g>
+</svg>
