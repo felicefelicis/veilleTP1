@@ -1,0 +1,70 @@
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6
+$ git init
+Initialized empty Git repository in C:/veilleTechnologique/semaine5/semaine7/exercice6/.git/
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6 (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/img/KB.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in assets/img/bg.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in assets/img/eclair.svg.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6 (master)
+$ git commit -m "fond decran changer avec logo egalement"
+[master (root-commit) b867ae0] fond decran changer avec logo egalement
+ 13 files changed, 550 insertions(+)
+ create mode 100644 assets/css/reset.css
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/img/KB.svg
+ create mode 100644 assets/img/bg.jpg
+ create mode 100644 assets/img/bg.svg
+ create mode 100644 assets/img/drone_a.png
+ create mode 100644 assets/img/drone_b.png
+ create mode 100644 assets/img/eclair.svg
+ create mode 100644 assets/img/mounts_1.png
+ create mode 100644 assets/img/mounts_2.png
+ create mode 100644 assets/img/mounts_3.png
+ create mode 100644 assets/img/mounts_4.png
+ create mode 100644 index.html
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6 (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/img/eclair.svg.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6 (master)
+$ git commit -m "ajout des class flexbox"
+[master e4faa46] ajout des class flexbox
+ 3 files changed, 16 insertions(+), 12 deletions(-)
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6 (master)
+$ git push https://github.com/felicefelicis
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/felicefelicis master
+
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6 (master)
+$ git push https://github.com/felicefelicis/exerciceParallax.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/felicefelicis/exerciceParallax.git master
+
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6 (master)
+$ git push https://github.com/felicefelicis/exerciceParallax.git master
+Counting objects: 26, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (26/26), 3.11 MiB | 726.00 KiB/s, done.
+Total 26 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/felicefelicis/exerciceParallax.git
+ * [new branch]      master -> master
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine5/semaine7/exercice6 (master)
