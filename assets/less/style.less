@@ -54,12 +54,14 @@ a:hover {
 }
 
 .btn {
+  width: 200px;
   border-radius: 0px;
   text-transform: uppercase;
   border: 2px solid white;
   font-size: 16px;
   letter-spacing: 2px;
   padding: 20px 50px;
+  margin: 0 auto;
 }
 
 .btn:hover {
@@ -67,7 +69,7 @@ a:hover {
   color: #C97872;
 }
 
-/* ----------------- Parallax base styles --------------------------------------------- */
+/* ----------------- Parallax base styles  */
 
 .parallax {
   height: 100vh;
@@ -120,8 +122,8 @@ a:hover {
   -webkit-transform: translateZ(-2px) scale(3);
   -ms-transform: translateZ(-2px) scale(3);
   transform: translateZ(-2px) scale(3);
-  background-image: url("../img/mounts_2.png");
-  margin-top: 95%;
+  background-image: url("../img/jimin.svg");
+  margin-top: 70%;
   z-index: -4;
 }
 
@@ -130,7 +132,7 @@ a:hover {
   -webkit-transform: translateZ(-3px) scale(4);
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("../img/mounts_3.png");
+  background-image: url("../img/nuage4.svg");
   margin-top: 130%;
   z-index: -5;
 }
@@ -140,7 +142,7 @@ a:hover {
   -webkit-transform: translateZ(-4px) scale(5);
   -ms-transform: translateZ(-4px) scale(5);
   transform: translateZ(-4px) scale(5);
-  background-image: url("../img/mounts_4.png");
+  background-image: url("../img/nuage2.svg");
   margin-top: 145%;
   z-index: -6;
 }
@@ -182,6 +184,32 @@ a:hover {
   width: 18vw;
   margin-right: -50%;
   z-index: -8;
+}
+
+.parallax__layer--nuage-d {
+  position: fixed;
+  -webkit-transform: translateZ(-1px) scale(3);
+  -ms-transform: translateZ(-1px) scale(3);
+  transform: translateZ(-1px) scale(3);
+  background-image: url("../img/nuage.svg");
+  margin: auto;
+  margin-top: 13%;
+  right: 0px;
+  width: 38vw;
+  margin-right: -50%;
+  z-index: -8;
+}
+
+.parallax__layer--nuage-e {
+  position: fixed;
+  -webkit-transform: translateZ(0) scale(1);
+  -ms-transform: translateZ(0) scale(1);
+  transform: translateZ(0) scale(1);
+  background-image: url("../img/nuage.svg");
+  width: 54vw;
+  margin-top: 20%;
+  margin-left: -13%;
+  z-index: -7;
 }
 
 .parallax__layer--logo {
@@ -291,4 +319,14 @@ h1 {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   
+}
+
+
+#svg_3 path{
+  position: fixed ;
+  stroke-width:1.5; 
+  stroke:#fff;
+  fill:none;
+  width:250px; 
+  height:400px;
 }
