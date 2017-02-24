@@ -331,6 +331,23 @@ h1 {
   margin-left: 20%;
 }
 
+#svg_4{
+  position: fixed ;
+  stroke-width:1.5; 
+  stroke:#fff;
+  fill:none;
+  min-width:240px; 
+  min-height:210px;
+  margin-left: -30%;
+  margin-top: -190px;
+
+  -webkit-animation: flash 0.1s infinite; /* Safari 4+ */
+  -moz-animation:flash 0.1s infinite; /* Fx 5+ */
+  -o-animation:flash 0.1s infinite; /* Opera 12+ */
+  animation:flash 0.1s infinite; /* IE 10+, Fx 29+ */
+  animation-direction: alternate;
+}
+
 
 #svg_31, #svg_32, #svg_33, #svg_21, #svg_50, #svg_52{
   stroke:#ffffff;
@@ -355,10 +372,10 @@ h1 {
 }
 
 .eclair{
-  -webkit-animation: shake 0.2s infinite; /* Safari 4+ */
-  -moz-animation:shake 0.2s infinite; /* Fx 5+ */
-  -o-animation:shake 0.2s infinite; /* Opera 12+ */
-  animation:shake 0.2s infinite; /* IE 10+, Fx 29+ */
+  -webkit-animation: shake 0.1s infinite; /* Safari 4+ */
+  -moz-animation:shake 0.1s infinite; /* Fx 5+ */
+  -o-animation:shake 0.1s infinite; /* Opera 12+ */
+  animation:shake 0.1s infinite; /* IE 10+, Fx 29+ */
   animation-direction: alternate;
 }
 
@@ -367,5 +384,9 @@ h1 {
   to { transform: rotate(50deg); }
 }
 
+@keyframes flash {
+  from { opacity: 1}
+  to { opacity: 0 }
+}
 
 
