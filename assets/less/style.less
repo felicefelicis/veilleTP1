@@ -71,7 +71,7 @@ a:hover {
 
 /* ----------------- Parallax base styles  */
 
-.parallax {
+#parallax {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -228,7 +228,7 @@ a:hover {
   letter-spacing: 10px;
   text-align: center;
   margin: auto;
-  margin-top: 76%;
+  margin-top: 50%;
   z-index: -9;
 }
 
@@ -256,7 +256,7 @@ a:hover {
 
 body,
 html {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: #C97872;
 }
 
@@ -314,19 +314,19 @@ h1 {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-  
+  display: flex;  
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   
 }
 
 
-#svg_3 path{
+#svg_3{
   position: fixed ;
   stroke-width:1.5; 
   stroke:#fff;
   fill:none;
-  width:250px; 
-  height:400px;
+  min-width:240px; 
+  min-height:210px;
 }
+

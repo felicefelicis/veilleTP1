@@ -1,25 +1,29 @@
 	/***************************   UN OEIL QUI TE FIXE   ************************************/
-	var oeil = document.querySelectorAll("#svg_3 path")[0];	
+	console.log("anim.js")
+	console.log(window)
 
-	var longueurOeil = oeil.getTotalLength();
+	var oeilPath = document.querySelectorAll("#svg_3 path")[0];	
 
-	oeil.style.strokeDasharray = longueurOeil;
+	var longueurOeil = oeilPath.getTotalLength();
 
-	oeil.style.strokeDashoffset = longueurOeil;
+	oeilPath.style.strokeDasharray = longueurOeil;
 
-	window.addEventListener("scroll", maTraceOeil);
+	oeilPath.style.strokeDashoffset = longueurOeil;
+
+    var parallax = document.querySelectorAll("#parallax")[0];
+
 
 	function maTraceOeil() {
+	  //var oeilPosition = document.querySelectorAll("#svg_3")[0].offset();
 
-		console.log('scrollTop de body = ' + document.body.scrollTop)
-		console.log('scrollTop de documentElement = ' + document.documentElement.scrollTop)
-		console.log('scrollHeight de documentElement = ' + document.documentElement.scrollHeight)	
-		console.log('clientHeight de documentElement = ' + document.documentElement.clientHeight)			
+	  //var parallaxPosition = parallax.offset();
 
-
-	  var fractionDuScroll = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+	  var fractionDuScroll = Math.min(parallax.scrollTop - window.innerHeight, parallax.scrollHeight - window.innerHeight) / (parallax.scrollHeight - window.innerHeight);
 
 	  var traceOeil = longueurOeil * fractionDuScroll;
 
-	  oeil.style.strokeDashoffset = longueurOeil - traceOeil ;
+	  oeilPath.style.strokeDashoffset = longueurOeil - traceOeil ;
+
 	}
+
+	parallax.addEventListener("scroll", maTraceOeil);
