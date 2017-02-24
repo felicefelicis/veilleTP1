@@ -1,6 +1,4 @@
-	/***************************   UN OEIL QUI TE FIXE   ************************************/
-	console.log("anim.js")
-	console.log(window)
+/***************************   UN OEIL QUI TE FIXE   ************************************/
 
 	var oeilPath = document.querySelectorAll("#svg_3 path")[0];	
 
@@ -14,9 +12,6 @@
 
 
 	function maTraceOeil() {
-	  //var oeilPosition = document.querySelectorAll("#svg_3")[0].offset();
-
-	  //var parallaxPosition = parallax.offset();
 
 	  var fractionDuScroll = Math.min(parallax.scrollTop - window.innerHeight, parallax.scrollHeight - window.innerHeight) / (parallax.scrollHeight - window.innerHeight);
 
@@ -27,3 +22,4 @@
 	}
 
 	parallax.addEventListener("scroll", maTraceOeil);
+
